@@ -42,6 +42,7 @@ const ProgressContainer = styled.progress`
   border-radius: var(--borderRadius);
   background-color: ${COLORS.transparentGray15};
   padding: var(--padding);
+  overflow: hidden;
   appearance: none;
 
   &::-webkit-progress-bar {
